@@ -315,7 +315,7 @@ body div[ltype*=action][mtype*=myself] .message {
 }
 
 body[dir=ltr] div[ltype*=action] .sender:before {
-	content: "›‹";
+	content: "▵";
 	margin-right: 0.4em;
 	margin-left: 0.4em;
 }
