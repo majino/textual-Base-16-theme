@@ -14,7 +14,7 @@ body {
 	font-size: 14px;
 	overflow: hidden;
 	overflow-y: visible;
-	background-color: #2B303B;
+	background-color: #2B303C;
 	font-family: "Lucida Grande";
 }
 
@@ -46,7 +46,7 @@ body[dir=rtl] .sender {
 /* Loading Screen */
 
 body div#loading_screen {
-	position: absolute;
+/*	position: absolute;
 	top: 50%;
 	left: 50%;
 	margin-top: -11px;
@@ -54,24 +54,24 @@ body div#loading_screen {
 	width: 300px;
 	height: 21px;
 	font-size: 18px;
-	background: #181818;
-	border: 1px solid #333333;
+	background: #2B303C;
+
 	border-radius: 5px;
 	padding: 5px;
 	padding-left: 10px;
 	opacity: 1; /* Set by JavaScript */
-	-webkit-transition: opacity 0.8s linear;
+	-webkit-transition: opacity 0.1s linear;*/
 }
 
 /* Time */
 
 body[dir=ltr] .time {
-	color: #414651;
+	color: #65737E;
 	white-space: nowrap;
 }
 
 body[dir=rtl] .time {
-	color: #414651;
+	color: #65737E;
 	white-space: nowrap;
 	padding-left: 0.4em;
 	display: inline-block;
@@ -112,7 +112,7 @@ a:hover {
 	z-index: 400;
 	color: #65737E;
 	position: fixed;
-	padding: 4px 5px 4px 5px;
+	padding: 2px 5px 2px 5px;
 	box-shadow: 0 4px 0px #232831;
 	background: #232831;
 	-webkit-transition: opacity 0.8s linear;
@@ -315,7 +315,7 @@ body div[ltype*=action][mtype*=myself] .message {
 }
 
 body[dir=ltr] div[ltype*=action] .sender:before {
-	content: "›‹";
+	content: "▵";
 	margin-right: 0.4em;
 	margin-left: 0.4em;
 }
@@ -401,7 +401,7 @@ body div.line[ltype*=website] {
 }
 
 body div.line[ltype*=nick] {
-	color: #B3B784;
+	color: #D08770;
 }
 
 body[dir=ltr] div[ltype*=join] .message:before {
