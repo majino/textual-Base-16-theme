@@ -14,7 +14,7 @@ body {
 	font-size: 14px;
 	overflow: hidden;
 	overflow-y: visible;
-	background-color: #343D46;
+	background-color: #2B303B;
 	font-family: "Lucida Grande";
 }
 
@@ -66,12 +66,12 @@ body div#loading_screen {
 /* Time */
 
 body[dir=ltr] .time {
-	color: #65737E;
+	color: #414651;
 	white-space: nowrap;
 }
 
 body[dir=rtl] .time {
-	color: #65737E;
+	color: #414651;
 	white-space: nowrap;
 	padding-left: 0.4em;
 	display: inline-block;
@@ -112,7 +112,7 @@ a:hover {
 	z-index: 400;
 	color: #65737E;
 	position: fixed;
-	padding: 2px 5px 2px 5px;
+	padding: 4px 5px 4px 5px;
 	box-shadow: 0 4px 0px #232831;
 	background: #232831;
 	-webkit-transition: opacity 0.8s linear;
