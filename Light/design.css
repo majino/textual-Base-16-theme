@@ -164,12 +164,18 @@ a:hover {
 	font-family: "Helvetica Neue" !important;
 	text-indent: 11px;
 	font-weight: normal;
+	cursor:pointer;
 	width: 36px;
+	opacity:0.5;
 	height: 36px;
 	float: left;
 /*	padding-right: 7px;
 	text-indent: 7px;
 	padding-left: 0px;*/
+}
+
+.inlineImageCell .closeButton:hover {
+	opacity:1;
 }
 
 html[systemversion^="10.9"] .inlineImageCell .closeButton,
