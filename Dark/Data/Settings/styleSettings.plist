@@ -3,20 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>Nickname Format</key>
-	<string></string>
+	<string>%@%n: </string>
 	<key>Timestamp Format</key>
-	<string></string>
+	<string>%H:%M ⑆</string>
 	<key>Override Channel Font</key>
 	<dict>
 		<key>Font Name</key>
-		<string></string>
+		<string>SourceCode-Regular</string>
 		<key>Font Size</key>
-		<integer>0</integer>
+		<integer>12</integer>
 	</dict>
 	<key>Indentation Offset</key>
 	<integer>6</integer>
 	<key>Underlying Window Color</key>
-	<string>#2B303C</string>
+	<string>#202020</string>
 	<key>Force Invert Sidebars</key>
 	<true/>
 	<key>Template Engine Versions</key>
